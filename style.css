@@ -368,7 +368,34 @@ body {
   font-size: 14px;
 }
 
-.tag:hover{
+.tag:hover {
   background-color: orange;
-  color:#000;
+  color: green;
+}
+
+.school-content p:hover {
+  color: red;
+}
+
+.school-content p::selection {
+  background-color: yellowgreen;
+}
+
+p:hover {
+  color: green;
+  background-color: orange;
+}
+
+h2:hover {
+  color: green;
+  background-color: orange;
+}
+
+h1:hover {
+  color: green;
+  background-color: orange;
+}
+
+ul li:hover {
+  color: red;
 }
